@@ -18,6 +18,7 @@
                 <h2>Benvenuto sul sito di recensioni Logitech</h2>
                 <p>Scopri la tastiera Logitech Logitech MX Keys S e il mouse in combo Logitech MX Master 3S</p>
             </section>
+            <p id="visite">Visite: 0</p>
         </header>
         <main>
             <section id="prodotti-in-evidenza">
@@ -66,5 +67,23 @@
                 <a href="contatti.html">Contatti</a>
             </p>
         </footer>
+        <script>
+        // Sostituisci 'tuosito' con un identificatore unico per il tuo sito
+        const namespace = "recensionilogitech_eugenio";
+        const key = "homepage";  // puoi fare key diverse per ogni pagina
+
+        // Chiama CountAPI per incrementare il contatore
+        fetch(`https://api.countapi.xyz/hit/${namespace}/${key}`)
+            .then(res => res.json())
+            .then(data => {
+            console.log("Numero visite:", data.value); // stampato in console
+            // Oppure mostra sul sito
+            const contatore = document.getElementById("visite");
+            if (contatore) {
+                contatore.textContent = `Visite: ${data.value}`;
+            }
+            })
+            .catch(err => console.error("Errore contatore:", err));
+        </script>
     </body>
 </html>
