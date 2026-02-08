@@ -67,23 +67,22 @@
                 <a href="contatti.html">Contatti</a>
             </p>
         </footer>
-        <script>
-        // Sostituisci 'tuosito' con un identificatore unico per il tuo sito
-        const namespace = "recensionilogitech_eugenio";
-        const key = "homepage";  // puoi fare key diverse per ogni pagina
-
-        // Chiama CountAPI per incrementare il contatore
-        fetch(`https://api.countapi.xyz/hit/${namespace}/${key}`)
-            .then(res => res.json())
-            .then(data => {
-            console.log("Numero visite:", data.value); // stampato in console
-            // Oppure mostra sul sito
-            const contatore = document.getElementById("visite");
-            if (contatore) {
-                contatore.textContent = `Visite: ${data.value}`;
-            }
-            })
-            .catch(err => console.error("Errore contatore:", err));
+        <!-- Default Statcounter code for Recensioni Logitech
+        https://eugenioguidi.github.io -->
+        <script type="text/javascript">
+            var sc_project=13203829; 
+            var sc_invisible=1; 
+            var sc_security="87f0182f"; 
         </script>
+        <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+
+        <noscript>
+            <div class="statcounter">
+                <a title="Web Analytics Made Easy - Statcounter" href="https://statcounter.com/" target="_blank">
+                    <img class="statcounter" src="https://c.statcounter.com/13203829/0/87f0182f/1/" alt="Web Analytics Made Easy - Statcounter" referrerPolicy="no-referrer-when-downgrade">
+                </a>
+            </div>
+        </noscript>
+        <!-- End of Statcounter Code -->
     </body>
 </html>
