@@ -7,13 +7,14 @@
     <body>
         <header>
             <h1>Recensioni Logitech</h1>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="#">MX Keys S</a>
-                <a href="#">MX Master 3S</a>
-                <a href="#">Combo MX Keys + MX Master</a>
-                <a href="#">Contatti</a>
-            </nav>
+            <div id="header-nav"></div>
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    fetch("https://eugenioguidi.github.io/header-nav.html").then(r => r.text()).then(html => {
+                        document.getElementById("header-nav").innerHTML = html;
+                    }).catch(err => console.error("Errore header:", err));
+                });
+            </script>
             <section id="hero">
                 <h2>Benvenuto sul sito di recensioni Logitech</h2>
                 <p>Scopri la tastiera Logitech Logitech MX Keys S e il mouse in combo Logitech MX Master 3S</p>
@@ -66,8 +67,7 @@
                 <a href="contatti.html">Contatti</a>
             </p>
         </footer>
-        <!-- Default Statcounter code for Recensioni Logitech
-        https://eugenioguidi.github.io -->
+        <!-- Default Statcounter code for Recensioni Logitech https://eugenioguidi.github.io 
         <script type="text/javascript">
             var sc_project=13203834; 
             var sc_invisible=1; 
@@ -81,7 +81,7 @@
                     <img class="statcounter" src="https://c.statcounter.com/13203829/0/87f0182f/1/" alt="Web Analytics Made Easy - Statcounter" referrerPolicy="no-referrer-when-downgrade">
                 </a>
             </div>
-        </noscript>
+        </noscript>-->
         <!-- End of Statcounter Code -->
     </body>
 </html>
