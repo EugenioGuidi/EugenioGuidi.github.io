@@ -1,0 +1,20 @@
+body, body > main, body > main > article, body > main > article > section, body > main > article > section > p, body > main > article > section > h2, body > main > article > section > h3, body > main > article > section > ul, body > main > article > section > figure{
+    margin: 0px;
+    padding: 0px;
+}
+
+body > main{
+    background-color: rgb(224, 224, 224);
+    padding: 20px;
+}
+
+body > main > article > section{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+body > header > h1, body > main > article > section > h2{
+    text-align: center;
+}
