@@ -8,7 +8,7 @@ body > main > div > article figure > a > img{
 }
 
 body > main{
-    background-color: rgb(224, 224, 224);
+    background: linear-gradient(to bottom right, #163D6A, #10ACE0);
     padding: 20px 50px;
 }
 
