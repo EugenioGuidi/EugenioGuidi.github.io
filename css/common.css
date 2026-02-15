@@ -3,9 +3,13 @@ body, body > main, body > main > div > article, body > main > div > article > se
     padding: 0px;
 }
 
+body > main > div > article > section > figure > a > img{
+    width: 100%;
+}
+
 body > main{
     background-color: rgb(224, 224, 224);
-    padding: 20px;
+    padding: 20px 50px;
 }
 
 body > main > div > article > section{
