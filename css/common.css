@@ -18,7 +18,7 @@ body > main > div{
 }
 
 body > main > div > article > section{
-    background: linear-gradient(to bottom right, #163D6A, #10ACE0);
+    background: linear-gradient(to bottom right, #163D6A, #ffffff);
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
