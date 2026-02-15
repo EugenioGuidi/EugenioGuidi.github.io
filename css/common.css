@@ -17,6 +17,7 @@ body > main > div > article > section{
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 5px -5px 5px gray;
 }
 
 body > header > h1, body > main > div > article > section > h2{
