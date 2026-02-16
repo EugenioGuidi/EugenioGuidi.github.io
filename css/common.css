@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
-.logo {
+.logo-1, .logo-2 {
     max-width: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .prodotto img {
@@ -170,14 +172,13 @@ header h1, .review-section h2, .review-section h3{
     max-height: 500px;
 }
 
-.contatti{
-    padding: 20px;
-}
+
 
 .diritti-riservati {
     text-align: center;
-    background-color: #163D6A;
+    background: linear-gradient(to bottom right, #163D6A, #10ACE0);
     color: white;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
