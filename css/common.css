@@ -4,10 +4,18 @@
     box-sizing: border-box;
 }
 
+.header-nav {
+    text-align: center;
+}
+
+.logo-link {
+    display: inline-block;
+}
+
 .logo-1, .logo-2 {
     display: block;
-    margin: 20px auto 0;
     max-width: 300px;
+    margin: 20px auto 0;
 }
 
 .prodotto img {
