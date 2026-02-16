@@ -172,7 +172,7 @@ header h1, .review-section h2, .review-section h3{
     max-height: 500px;
 }
 
-.diritti-riservati, .domande, .chi-sono{
+.diritti-riservati, .chi-sono{
     padding: 5px 0px;
     text-align: center;
     margin: 0% 5%;
@@ -182,6 +182,7 @@ header h1, .review-section h2, .review-section h3{
     background: linear-gradient(to bottom right, #163D6A, #10ACE0);
     color: white;
     padding: 5px 0px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
