@@ -38,5 +38,18 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function toggleMenu() {
-    document.getElementById("mobileMenu").classList.toggle("active");
+    event.stopPropagation();
+
+    const menu = document.getElementById("mobileMenu");
+    const hamburger = document.querySelector(".hamburger");
+
+    menu.classList.toggle("active");
+
+    if (menu.classList.contains("active")) {
+        hamburger.style.opacity = 0;
+        hamburger.style.pointerEvents = "none";
+    } else {
+        hamburger.style.opacity = 1;
+        hamburger.style.pointerEvents = "auto";
+    }
 }
