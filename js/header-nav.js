@@ -6,7 +6,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
             document.querySelectorAll(".submenu-toggle").forEach(button => {
                 button.addEventListener("click", function() {
-                    this.nextElementSibling.classList.toggle("active");
+
+                    const submenu = this.nextElementSibling;
+
+                    if (submenu.style.maxHeight) {
+                        submenu.style.transition = "max-height 0.2s ease-in";
+                        submenu.style.maxHeight = null;
+                    } else {
+                        submenu.style.transition = "max-height 0.35s ease-out";
+                        submenu.style.maxHeight = submenu.scrollHeight + "px";
+                    }
                 });
             });
         })
