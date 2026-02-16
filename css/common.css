@@ -114,9 +114,19 @@ header h1, .review-section h2, .review-section h3{
 
 
 .hamburger {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+
     font-size: 28px;
     cursor: pointer;
     padding: 10px;
+
+    background: #222;
+    color: white;
+    border-radius: 6px;
+
+    z-index: 10000; /* sopra a tutto */
 }
 
 .mobile-menu {
