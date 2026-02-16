@@ -121,6 +121,7 @@ header h1, .review-section h2, .review-section h3{
 }
 
 .hamburger {
+    display: inline-block;
     font-size: 28px;
     cursor: pointer;
     padding: 10px;
