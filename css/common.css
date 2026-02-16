@@ -10,6 +10,7 @@
 
 .prodotto img {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 main{
@@ -37,6 +38,9 @@ main{
 
 .review-section li {
     margin-bottom: 15px;
+}
+
+.review-section ul{
     margin-left: 20px;
 }
 
@@ -48,6 +52,10 @@ main{
 header h1, .review-section h2 {
     text-align: center;
     font-family: sans-serif;
+}
+
+header h1, .review-section h2, .review-section h3{
+    margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
