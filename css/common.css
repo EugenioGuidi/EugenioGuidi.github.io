@@ -28,7 +28,11 @@ main{
     padding: 20px;
     border-radius: 10px;
     box-shadow: 5px -5px 5px rgb(43, 43, 43);
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", "Roboto", "Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial, sans-serif;
+}
+
+.review-section p {
+    line-height: 1.6;
 }
 
 header h1, .review-section h2 {
