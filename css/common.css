@@ -172,6 +172,8 @@ header h1, .review-section h2, .review-section h3{
 
 .diritti-riservati {
     text-align: center;
+    background-color: #111;
+    color: white;
 }
 
 @media (max-width: 768px) {
