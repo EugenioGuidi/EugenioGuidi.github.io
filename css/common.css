@@ -95,6 +95,7 @@ header h1, .review-section h2, .review-section h3{
     margin: 0 0 8px 0;
     font-size: 16px;
     font-weight: bold;
+    display: inline-block;
 }
 
 .cta-amazon-button {
