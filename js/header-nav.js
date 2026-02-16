@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-function toggleMenu() {
+function toggleMenu(event) {
     event.stopPropagation();
 
     const menu = document.getElementById("mobileMenu");
