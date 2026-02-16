@@ -5,9 +5,9 @@
 }
 
 .logo-1, .logo-2 {
+    display: block;
+    margin: 20px auto 0;
     max-width: 300px;
-    margin-top: 20px;
-    text-align: center;
 }
 
 .prodotto img {
