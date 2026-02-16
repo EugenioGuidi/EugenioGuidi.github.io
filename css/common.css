@@ -109,10 +109,6 @@ header h1, .review-section h2, .review-section h3{
     background-color: #e68a00;
 }
 
-
-
-
-
 .hamburger {
     font-size: 28px;
     cursor: pointer;
@@ -174,10 +170,9 @@ header h1, .review-section h2, .review-section h3{
     max-height: 500px;
 }
 
-
-
-
-
+.diritti-riservati {
+    text-align: center;
+}
 
 @media (max-width: 768px) {
 
