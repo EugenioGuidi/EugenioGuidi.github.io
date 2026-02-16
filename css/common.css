@@ -136,7 +136,8 @@ header h1, .review-section h2, .review-section h3{
 }
 
 .hamburger {
-    display: flex-start;
+    display: inline-block;
+    align-self: flex-start; 
     font-size: 28px;
     cursor: pointer;
     padding: 10px;
