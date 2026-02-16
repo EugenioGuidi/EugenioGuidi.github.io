@@ -11,6 +11,21 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         })
         .catch(err => console.error("Errore header:", err));
+    
+    document.addEventListener("click", function(event) {
+
+        const menu = document.getElementById("mobileMenu");
+        const hamburger = document.querySelector(".hamburger");
+
+        if (!menu.classList.contains("active")) return;
+
+        const clickDentroMenu = menu.contains(event.target);
+        const clickHamburger = hamburger.contains(event.target);
+
+        if (!clickDentroMenu && !clickHamburger) {
+            menu.classList.remove("active");
+        }
+    });
 });
 
 function toggleMenu() {
