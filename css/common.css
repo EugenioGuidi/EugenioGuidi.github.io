@@ -62,6 +62,7 @@ header h1, .review-section h2, .review-section h3{
 }
 
 
+
 .cta-amazon-card {
     display: flex;
     align-items: center;
@@ -69,13 +70,13 @@ header h1, .review-section h2, .review-section h3{
     padding: 12px;
     border-radius: 8px;
     max-width: 450px;
-    margin: 16px 0;
+    margin: 16px auto;
     background-color: #fff;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
 .cta-amazon-img {
-    width: 100px;
+    width: 120px;
     height: auto;
     object-fit: contain;
     margin-right: 16px;
