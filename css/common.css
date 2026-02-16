@@ -3,6 +3,10 @@ body, body > main, body > main > div > article, body > main > div > article > se
     padding: 0px;
 }
 
+body > header > a > img{
+    width: 300px;
+}
+
 body > main > div > article figure > img{
     width: 100%;
 }
