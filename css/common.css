@@ -179,6 +179,7 @@ header h1, .review-section h2, .review-section h3{
 .diritti-riservati {
     background: linear-gradient(to bottom right, #163D6A, #10ACE0);
     color: white;
+    padding: 5px 0px;
 }
 
 @media (max-width: 768px) {
