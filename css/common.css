@@ -1,27 +1,28 @@
-body, body > main, body > main > div > article, body > main > div > article > section, body > main > div > article > section > p, body > main > div > article > section > h2, body > main > div > article > section > h3, body > main > div > article > section > ul, body > main > div > article > section > figure{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body > header > a > img{
+.logo {
     max-width: 300px;
 }
 
-body > main > div > article figure > img{
+.prodotto img {
     width: 100%;
 }
 
-body > main{
+main{
     background: linear-gradient(to bottom right, #163D6A, #10ACE0);
     padding: 20px 50px;
 }
 
-body > main > div{
+.container {
     margin: 0 auto;
     max-width: 800px;
 }
 
-body > main > div > article > section{
+.review-section {
     background-color: white;
     margin-bottom: 20px;
     padding: 20px;
@@ -30,7 +31,7 @@ body > main > div > article > section{
     font-family: "Inter", sans-serif;
 }
 
-body > header > h1, body > main > div > article > section > h2{
+header h1, .review-section h2 {
     text-align: center;
     font-family: sans-serif;
 }
