@@ -4,7 +4,7 @@ body, body > main, body > main > div > article, body > main > div > article > se
 }
 
 body > header > a > img{
-    width: 300px;
+    max-width: 300px;
 }
 
 body > main > div > article figure > img{
