@@ -170,9 +170,13 @@ header h1, .review-section h2, .review-section h3{
     max-height: 500px;
 }
 
+.contatti{
+    padding: 20px;
+}
+
 .diritti-riservati {
     text-align: center;
-    background-color: #111;
+    background-color: #163D6A;
     color: white;
 }
 
