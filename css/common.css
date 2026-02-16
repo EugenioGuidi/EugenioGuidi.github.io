@@ -5,11 +5,18 @@
 }
 
 .header-nav {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
 }
 
 .logo-link {
     display: inline-block;
+}
+
+.logo-1{
+    margin-bottom: 10px;
 }
 
 .logo-1, .logo-2 {
@@ -129,7 +136,7 @@ header h1, .review-section h2, .review-section h3{
 }
 
 .hamburger {
-    display: inline-block;
+    display: flex-start;
     font-size: 28px;
     cursor: pointer;
     padding: 10px;
