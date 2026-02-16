@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
                     const submenu = this.nextElementSibling;
 
                     if (submenu.style.maxHeight) {
-                        submenu.style.transition = "max-height 0.2s ease-in";
+                        submenu.style.transition = "max-height 0.5s ease-in";
                         submenu.style.maxHeight = null;
                     } else {
-                        submenu.style.transition = "max-height 5s ease-out";
+                        submenu.style.transition = "max-height 0.5s ease-out";
                         submenu.style.maxHeight = submenu.scrollHeight + "px";
                     }
                 });
