@@ -3,7 +3,7 @@ body, body > main, body > main > div > article, body > main > div > article > se
     padding: 0px;
 }
 
-body > main > div > article figure > a > img{
+body > main > div > article figure > img{
     width: 100%;
 }
 
