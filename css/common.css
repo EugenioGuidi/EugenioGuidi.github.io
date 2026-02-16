@@ -35,6 +35,10 @@ main{
     line-height: 1.6;
 }
 
+.review-section li {
+    margin-bottom: 15px;
+}
+
 header h1, .review-section h2 {
     text-align: center;
     font-family: sans-serif;
