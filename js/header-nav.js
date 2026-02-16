@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         submenu.style.transition = "max-height 0.2s ease-in";
                         submenu.style.maxHeight = null;
                     } else {
-                        submenu.style.transition = "max-height 0.35s ease-out";
+                        submenu.style.transition = "max-height 5s ease-out";
                         submenu.style.maxHeight = submenu.scrollHeight + "px";
                     }
                 });
