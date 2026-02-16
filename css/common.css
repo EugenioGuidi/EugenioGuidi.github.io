@@ -164,12 +164,14 @@ header h1, .review-section h2, .review-section h3{
 }
 
 .submenu {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
     background: #111;
 }
 
 .submenu.active {
-    display: block;
+    max-height: 500px;
 }
 
 
