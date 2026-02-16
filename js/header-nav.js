@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+
     fetch("https://eugenioguidi.github.io/html/template/header-nav.html")
         .then(r => r.text())
         .then(html => { 
@@ -18,11 +19,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                 });
             });
+
+            document.querySelectorAll("#mobileMenu a").forEach(link => {
+                link.addEventListener("click", closeMenu);
+            });
         })
         .catch(err => console.error("Errore header:", err));
-    
-    document.addEventListener("click", function(event) {
 
+    document.addEventListener("click", function(event) {
         const menu = document.getElementById("mobileMenu");
         const hamburger = document.querySelector(".hamburger");
 
@@ -32,10 +36,19 @@ document.addEventListener("DOMContentLoaded", () => {
         const clickHamburger = hamburger.contains(event.target);
 
         if (!clickDentroMenu && !clickHamburger) {
-            menu.classList.remove("active");
+            closeMenu();
         }
     });
 });
+
+function closeMenu() {
+    const menu = document.getElementById("mobileMenu");
+    const hamburger = document.querySelector(".hamburger");
+
+    menu.classList.remove("active");
+    hamburger.style.opacity = 1;
+    hamburger.style.pointerEvents = "auto";
+}
 
 function toggleMenu(event) {
     event.stopPropagation();
